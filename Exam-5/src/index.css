@@ -1,11 +1,12 @@
-
-body {
+Copy code body {
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
+  background-color: #121212;
+  /* Dark background */
+  color: #e0e0e0;
+  /* Light text color */
   margin: 0;
   padding: 0;
 }
-
 
 .home-container {
   display: flex;
@@ -17,10 +18,12 @@ body {
 
 .product-card {
   width: 250px;
-  background-color: white;
+  background-color: #1e1e1e;
+  /* Dark card background */
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+  /* Light shadow */
   text-align: center;
 }
 
@@ -34,32 +37,37 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
-  color: #333;
+  color: #e0e0e0;
+  /* Light text color */
   text-decoration: none;
 }
 
 .product-title:hover {
   color: #007bff;
+  /* Keep hover color */
 }
-
 
 .product-details {
   max-width: 800px;
   margin: 20px auto;
-  background-color: white;
+  background-color: #1e1e1e;
+  /* Dark details background */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+  /* Light shadow */
 }
 
 .product-details h1 {
   font-size: 28px;
-  color: #333;
+  color: #e0e0e0;
+  /* Light text color */
 }
 
 .product-details p {
   font-size: 16px;
-  color: #555;
+  color: #b0b0b0;
+  /* Slightly lighter text for paragraphs */
   line-height: 1.6;
   margin-top: 10px;
 }
@@ -71,18 +79,19 @@ body {
   border-radius: 8px;
 }
 
-
 /* Navbar Styling */
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #333;
+  /* Dark navbar */
   padding: 10px 0;
 }
 
 .navbar a {
-  color: white;
+  color: #e0e0e0;
+  /* Light text color */
   text-decoration: none;
   font-size: 18px;
   padding: 10px 20px;
@@ -92,30 +101,32 @@ body {
 
 .navbar a:hover {
   background-color: #007bff;
+  /* Keep hover color */
 }
 
 .navbar a.active {
   background-color: #0056b3;
+  /* Keep active color */
 }
-
-
 
 .form-container {
   max-width: 400px;
   margin: 50px auto;
-  background-color: white;
+  background-color: #1e1e1e;
+  /* Dark form background */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+  /* Light shadow */
 }
 
 .form-title {
   text-align: center;
   font-size: 28px;
-  color: #333;
+  color: #e0e0e0;
+  /* Light text color */
   margin-bottom: 20px;
 }
-
 
 .form {
   display: flex;
@@ -124,7 +135,8 @@ body {
 
 .form-label {
   font-size: 16px;
-  color: #333;
+  color: #e0e0e0;
+  /* Light text color */
   margin-bottom: 8px;
 }
 
@@ -132,32 +144,40 @@ body {
   padding: 10px;
   margin-bottom: 15px;
   font-size: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #444;
+  /* Darker border */
   border-radius: 5px;
   outline: none;
+  background-color: #2a2a2a;
+  /* Dark input background */
+  color: #e0e0e0;
+  /* Light text color */
 }
 
 .form-input:focus {
   border-color: #007bff;
+  /* Keep focus color */
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-
 
 .form-button {
   padding: 10px;
   font-size: 18px;
   color: white;
   background-color: #4c555f;
+  /* Dark button background */
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background -color 0.3s ease;
 }
 
 .form-button:hover {
   background-color: #1e2124;
+  /* Darker hover color */
 }
 
 .form-button:active {
   background-color: #004085;
+  /* Keep active color */
 }
